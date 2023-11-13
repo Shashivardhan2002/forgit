@@ -1,0 +1,24 @@
+$(function() {
+   $(".redbox").fadeOut(1000);
+   $(".redbox").fadeIn(1000).delay(1000);
+   $(".redbox").fadeTo(1000,0.5);
+   $(".redbox").fadeToggle(1000,0.5,function({
+alert("over");
+)});
+    hide
+     slideDown
+     slideToggle
+});
+
+
+We can create our own custom animations 
+
+we should use the function animate .
+
+$(function() {
+   $(blue_box).animate({
+   });
+});
+ 
+
+After the function is finished we can create alert by using alert(); this is called Callback function
